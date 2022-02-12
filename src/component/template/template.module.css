@@ -1,0 +1,161 @@
+.block {
+  max-width: 573px;
+  padding: 54px 45px 37px 45px;
+  text-align: center;
+  background: #f8fafc;
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+
+.block:not(:last-child) {
+  margin-right: 35px;
+}
+
+.block:hover {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.listImage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.spanIcon {
+  padding: 5px 20px;
+  background: linear-gradient(261.65deg, #efbb37 -3.95%, #cf9e1f 109.44%);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  color: #ffffff;
+  font-family: SF UI Display;
+  font-size: 14px;
+  line-height: 1.15;
+}
+
+.imageProduct {
+  width: 256px;
+  height: 261px;
+  margin-bottom: 25px;
+  transition: 1s;
+}
+
+.imageProduct:hover {
+  transform: scale(1.5);
+}
+
+.Imgblock {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.blockImg {
+  width: 256px;
+  height: 261px;
+  background: #ffffff;
+  border-radius: 25px;
+  transition: 1s;
+}
+.blockImg:hover {
+  transform: scale(1.5);
+}
+
+.bgIconBalance {
+  width: 46px;
+  height: 46px;
+  background: #ffffff;
+  border-radius: 30px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.bgIconBalance:hover {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.iconBalance {
+  width: 16px;
+  height: 16px;
+  fill: #003466;
+}
+
+.text {
+  justify-content: space-around;
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.title {
+  margin-bottom: 10px;
+}
+
+.blockColorPrice {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.btnOrder {
+  padding: 9px 115px;
+  background: linear-gradient(261.65deg, #efbb37 -3.95%, #cf9e1f 109.44%);
+  border-radius: 30px;
+  color: #ffffff;
+}
+
+.radioBtn {
+  margin-bottom: 25px;
+  text-align: initial;
+  margin-left: 22px;
+}
+.radioInput {
+  display: flex;
+  align-items: center;
+}
+
+.radioInput:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.checkbox {
+  background: #dedede;
+  border-radius: 5px;
+  box-sizing: border-box;
+  appearance: none;
+  outline: 2.54px solid #dedede;
+  width: 22.54px;
+  height: 22.54px;
+  margin: 0;
+}
+
+.checkbox:checked {
+  background: linear-gradient(261.65deg, #efbb37 -3.95%, #cf9e1f 109.44%);
+  border-radius: 5px;
+}
+
+.textRadioBtn {
+  font-size: 16px;
+  line-height: 1.18;
+  margin-left: 12px;
+}
+
+.counter {
+  display: flex;
+  padding: 8px 13px;
+  background: #e2e9f0;
+  border-radius: 30px;
+  margin-right: 31px;
+}
+
+.containerOrder {
+  display: flex;
+}
+
+.btnCounter {
+  background-color: #e2e9f0;
+  border: 0;
+}
+.resultCounter {
+  margin: 0 19px;
+}
